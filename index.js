@@ -177,3 +177,4 @@ temp[firstName] = 'Swift'; // firstName is "Vaibhav" => it will sets the value a
 console.log(temp);
 
 // functions can take other functions as input if yes then we call that functions as callback function, because the main function will call back the function that it gets as parameter
+
