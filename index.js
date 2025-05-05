@@ -178,3 +178,7 @@ console.log(temp);
 
 // functions can take other functions as input if yes then we call that functions as callback function, because the main function will call back the function that it gets as parameter
 
+// Arrow function: "I'm borrowing "this" from where I was created." / 	❌ Does not have its own "this" — it lexically binds this from the surrounding scope (usually where it was defined).
+// Regular function: "I'll decide what "this" is based on how I'm called." / Has its own this, which is dynamically set based on how the function is called (like the DOM element in event listeners). 
+
+// 0, NaN, '', undefined and null these are falsy value and other are true value
